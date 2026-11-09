@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://m.media-amazon.com/images/I/71n8CL2e1tL._AC_UF1000,1000_QL80_.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+
+.dest-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.dest-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dest-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.footer-link {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: #ffffff;
+}
+
+.navbar-collapse.collapse {
+  visibility: visible;
+}
